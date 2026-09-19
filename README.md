@@ -75,7 +75,7 @@ Tracks customer service call volume and outcomes.
 - **Number of Calls by Issue Type** (bar chart) — Transaction Dispute (774), Account Access (768), Card Issue (729), Loan Query (729)
 - **Top Customers Having Issue** (bar chart) — customers with the most support tickets (up to 7)
 - **Number of Calls by Resolved** (pie chart) — resolved (No: 50.7%) vs. unresolved (Yes: 49.3%)
-![Support Calls](screenshots/Support_Calls.PNG)
+![Support Calls](screenshots/SupportCalls.PNG)
 
 ---
 
@@ -106,7 +106,7 @@ The model follows a **star schema** with fact tables at the center and surroundi
 - `DimDate` → `FactTransactions`, `FactLoans`, `FactSupportCalls` (via respective date fields)
 
 ###Modeling screenshot
-![Modeling Screenshot](screenshots/Data_Modeling.PNG)
+![Modeling Screenshot](screenshots/DataModeling.PNG)
 
 ---
 
